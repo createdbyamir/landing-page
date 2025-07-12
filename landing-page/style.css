@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'LemonMilkMed';
+    src: url(./fonts/lemon-milk-medium.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'LemonMilkMed', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+p {
+  font-size: 1.25rem;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #eee;
+}
