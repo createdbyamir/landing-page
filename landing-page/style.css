@@ -8,31 +8,32 @@
 body {
   margin: 0;
   height: 100vh;
-  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  background: #1e293b; 
   font-family: 'Open Sans', Arial, sans-serif;
-  color: #222;
+  color: #e2e8f0;
   text-align: center;
 }
 
 .container {
-  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
 
 h1 {
   font-family: 'LemonMilkMed', 'Poppins', sans-serif;
   font-size: 3rem;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 0 0 1rem;
+  color: #fbbf24;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 p {
-  font-size: 1.25rem;
-  line-height: 1.6;
-  margin: 0 auto;
-  color: #f0f0f0;
+  font-size: 1.2rem;
+  max-width: 500px;
+  color: #cbd5e1; 
 }
